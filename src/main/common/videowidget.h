@@ -3,11 +3,11 @@
 
 #include <QWidget>
 #include <QDialog>
-#include <phonon/mediasource.h>
-#include <phonon/mediaobject.h>
-#include <phonon/AudioOutput>
-#include <phonon/videoplayer.h>
-#include <phonon/VideoWidget>
+//#include <phonon/mediasource.h>
+//#include <phonon/mediaobject.h>
+//#include <phonon/AudioOutput>
+//#include <phonon/videoplayer.h>
+//#include <phonon/VideoWidget>
 
 class StaticButton;
 class QLabel;
@@ -21,12 +21,12 @@ public:
 private slots:
     void playFinished();
     void closeWidget();
-    void playChanged(Phonon::State newstate, Phonon::State oldstate);
+//    void playChanged(Phonon::State newstate, Phonon::State oldstate);
 private:
-    Phonon::MediaObject *m_mediaObject;
-    Phonon::VideoWidget *m_videoWidget;
-    Phonon::AudioOutput *m_audioOutput;
-    StaticButton    *m_close;
+//    Phonon::MediaObject *m_mediaObject;
+//    Phonon::VideoWidget *m_videoWidget;
+//    Phonon::AudioOutput *m_audioOutput;
+//    StaticButton    *m_close;
     QLabel  *m_startLabel;
     QLabel  *m_endLabel;
     bool    m_isFirst;
